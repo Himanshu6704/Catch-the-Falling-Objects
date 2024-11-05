@@ -12,18 +12,22 @@ body {
     height: 100vh;
     background-color: #f0f0f0;
 }
-
+.score{
+    font-size: large;
+}
 .game-container {
     text-align: center;
+    background-color: #ff6347;
 }
 
 .game-area {
     position: relative;
     width: 300px;
     height: 500px;
-    background-color: #a0d5f0;
+    background-color: #092c3e;
     overflow: hidden;
-    border: 2px solid #333;
+    border: 3px solid #352020;
+    border-color: #ff6347;
 }
 
 .basket {
@@ -31,8 +35,8 @@ body {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 60px;
-    height: 20px;
+    width: 70px;
+    height: 25px;
     background-color: #ff6347;
 }
 
@@ -40,6 +44,6 @@ body {
     position: absolute;
     width: 30px;
     height: 30px;
-    background-color: #ffcc00;
-    border-radius: 50%;
+    background-color: #1bdfe2;
+    border-radius: 100%;
 }

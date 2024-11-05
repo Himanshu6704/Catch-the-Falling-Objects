@@ -25,7 +25,7 @@ function createFallingObject() {
     let objectPosition = 0;
     const fallInterval = setInterval(() => {
         if (objectPosition < 500) {
-            objectPosition += 5; // Speed of falling
+            objectPosition += 6; // Speed of falling
             object.style.top = objectPosition + 'px';
 
             // Check for collision with the basket
